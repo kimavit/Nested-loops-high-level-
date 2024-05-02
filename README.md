@@ -1,7 +1,7 @@
 Nested loops part 2
 ==================
 Divider 1
---------
+------
 ````ruby
 a = int(input())
 b = int(input())
@@ -18,3 +18,4 @@ for i in range(a, b+1):
             max = i
 print(max, cnt)
 ````
+-----
