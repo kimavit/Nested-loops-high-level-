@@ -19,3 +19,16 @@ for i in range(a, b+1):
 print(max, cnt)
 ````
 -----
+````ruby
+n = int(input())
+while n > 9:
+    tot = 0
+    while n > 0:
+        last = n % 10
+        tot += last
+        n = n//10
+    n = tot
+print(n)
+````
+----
+
