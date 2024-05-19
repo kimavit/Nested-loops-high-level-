@@ -31,4 +31,15 @@ while n > 9:
 print(n)
 ````
 ----
-
+````ruby
+n = int(input())
+tot = 0
+for i in range(1, n + 1):
+    cnt = 1
+    for j in range(1, i + 1):
+        cnt = cnt * j
+    tot = tot + cnt
+   
+print(tot)
+````
+----
